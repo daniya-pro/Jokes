@@ -10,11 +10,22 @@
 </head>
 
 <body>
-    <div class="verdana center" id="container">
+    <div id="spinner" class="overlay">
+        <div  class="loader"></div>
+      </div>
+    <div class="verdana center" id="container" style="display:none;">
+   
         <div class="blackbg colorwhite t-center verdana"> Jokes.com </div>
-         <h1>Joke</h1>
-         <p id="joke">asdfghjklkjhgfdsssssddghjhj</p>
-         <button class="btn">helo</button>
+       <div class="top-15">
+               <p id="rederr"></p>
+  <input id='fname' type="text" class="w-249 h-27px b00-black" placeholder="write a name here if you want it to be included in the joke">
+        <button id='btn' class="btn">Submit</button>
+        <select class="h-27px" id="gender"><option value="boy">Gender:Male</option><option value="girl">Gender:Female</option></select>
+        <h1 class="verdana">Joke :</h1>
+         <p id="joke"></p>
+         <button id='anotherjoke' class="btn">See another Joke</button>
+       
+         <div>
    
     </div>
 
